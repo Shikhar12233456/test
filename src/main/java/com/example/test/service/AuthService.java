@@ -48,9 +48,4 @@ public class AuthService {
         return AuthenticationResponse.builder().token(jwtToken).build();
     }
 
-//    public Boolean isFaculty(){
-////        return userRepository.
-//        return  true;
-//    }
-
 }
